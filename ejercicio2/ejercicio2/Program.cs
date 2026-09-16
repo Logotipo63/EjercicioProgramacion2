@@ -103,33 +103,85 @@ else Console.WriteLine("El numero no es mayor que cero");
 //         break;
 //  }
 //ejercicio 13
- Console.WriteLine("elige operacion matematica: \n 1.- * \n 2.- + \n 3.- - \n 4.- /");
-Console.WriteLine("Elija una opción.");
+// Console.WriteLine("elige operacion matematica: \n 1.- * \n 2.- + \n 3.- - \n 4.- /");
+//Console.WriteLine("Elija una opción.");
+//int opcion = int.Parse(Console.ReadLine());
+//Console.WriteLine("introduce el primer numero");
+//double numero131 = double.Parse(Console.ReadLine());
+//Console.WriteLine("introduce el segundo numero");
+//double numero132 = double.Parse(Console.ReadLine());
+
+
+//switch (opcion)
+//{
+//    case 1: 
+//        Console.WriteLine ($"{numero131} x {numero132} = {numero131*numero132}");
+
+//        break;
+//    case 2: 
+//        Console.WriteLine ($"{numero131} + {numero132} = {numero131+numero132}");
+
+//        break;
+//    case 3: 
+//        Console.WriteLine ($"{numero131} - {numero132} = {numero131-numero132}");
+
+//        break;
+//    case 4: 
+//        Console.WriteLine ($"{numero131} / {numero132} = {numero131/numero132}");
+//        break;
+//    default: 
+//        Console.WriteLine ("Opción no válida");
+//        break;
+//}
+
+//Ejercicio 14
+Console.WriteLine("elige un numero del 1 al 12");
 int opcion = int.Parse(Console.ReadLine());
-Console.WriteLine("introduce el primer numero");
-double numero131 = double.Parse(Console.ReadLine());
-Console.WriteLine("introduce el segundo numero");
-double numero132 = double.Parse(Console.ReadLine());
 
 
 switch (opcion)
 {
-    case 1: 
-        Console.WriteLine ($"{numero131} x {numero132} = {numero131*numero132}");
+    case 1:
+        Console.WriteLine("Enero");
 
         break;
-    case 2: 
-        Console.WriteLine ($"{numero131} + {numero132} = {numero131+numero132}");
+    case 2:
+        Console.WriteLine("Febrero");
 
         break;
-    case 3: 
-        Console.WriteLine ($"{numero131} - {numero132} = {numero131-numero132}");
+    case 3:
+        Console.WriteLine("Marzo");
 
         break;
-    case 4: 
-        Console.WriteLine ($"{numero131} / {numero132} = {numero131/numero132}");
+    case 4:
+        Console.WriteLine("Abril");
         break;
-    default: 
-        Console.WriteLine ("Opción no válida");
+    case 5:
+        Console.WriteLine("Mayo");
+        break;
+    case 6:
+        Console.WriteLine("Junio");
+        break;
+    case 7:
+        Console.WriteLine("Julio");
+        break;
+    case 8:
+        Console.WriteLine("Agosto");
+        break;
+    case 9:
+        Console.WriteLine("Septiembre");
+        break;
+    case 10:
+        Console.WriteLine("Octubre");
+        break;
+    case 11:
+        Console.WriteLine("Noviembre");
+        break;
+    case 12:
+        Console.WriteLine("Diciembre");
+        break;
+
+    default:
+        Console.WriteLine("Opción no válida");
         break;
 }
