@@ -84,21 +84,52 @@ else Console.WriteLine("El numero no es mayor que cero");
 //default: Console.WriteLine ("domingo");
 //break;}
 
-//Ejercicio 12
-Console.WriteLine("MENU: \n 1.- Crear \n 2.- Consultar \n 3.- Modificar \n 4.- Elminiar");
+// //Ejercicio 12
+// Console.WriteLine("MENU: \n 1.- Crear \n 2.- Consultar \n 3.- Modificar \n 4.- Elminiar");
+// Console.WriteLine("Elija una opción.");
+// int opcion = int.Parse(Console.ReadLine());
+
+// switch (opcion)
+// {
+//     case 1: Console.WriteLine ("Crear");
+//         break;
+//     case 2: Console.WriteLine("Consultar");
+//         break;
+//     case 3: Console.WriteLine ("Modificar");
+//         break;
+//     case 4: Console.WriteLine ("Eliminar");
+//         break;
+//     default: Console.WriteLine ("Opción no válida");
+//         break;
+//  }
+//ejercicio 13
+ Console.WriteLine("elige operacion matematica: \n 1.- * \n 2.- + \n 3.- - \n 4.- /");
 Console.WriteLine("Elija una opción.");
 int opcion = int.Parse(Console.ReadLine());
+Console.WriteLine("introduce el primer numero");
+double numero131 = double.Parse(Console.ReadLine());
+Console.WriteLine("introduce el segundo numero");
+double numero132 = double.Parse(Console.ReadLine());
+
 
 switch (opcion)
 {
-    case 1: Console.WriteLine ("Crear");
+    case 1: 
+        Console.WriteLine ($"{numero131} x {numero132} = {numero131*numero132}");
+
         break;
-    case 2: Console.WriteLine("Consultar");
+    case 2: 
+        Console.WriteLine ($"{numero131} + {numero132} = {numero131+numero132}");
+
         break;
-    case 3: Console.WriteLine ("Modificar");
+    case 3: 
+        Console.WriteLine ($"{numero131} - {numero132} = {numero131-numero132}");
+
         break;
-    case 4: Console.WriteLine ("Eliminar");
+    case 4: 
+        Console.WriteLine ($"{numero131} / {numero132} = {numero131/numero132}");
         break;
-    default: Console.WriteLine ("Opción no válida");
+    default: 
+        Console.WriteLine ("Opción no válida");
         break;
- }
+}
