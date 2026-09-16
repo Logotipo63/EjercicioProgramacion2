@@ -134,54 +134,65 @@ else Console.WriteLine("El numero no es mayor que cero");
 //        break;
 //}
 
-//Ejercicio 14
-Console.WriteLine("elige un numero del 1 al 12");
-int opcion = int.Parse(Console.ReadLine());
+// //Ejercicio 14
+// Console.WriteLine("elige un numero del 1 al 12");
+// int opcion = int.Parse(Console.ReadLine());
 
 
-switch (opcion)
+// switch (opcion)
+// {
+//     case 1:
+//         Console.WriteLine("Enero");
+
+//         break;
+//     case 2:
+//         Console.WriteLine("Febrero");
+
+//         break;
+//     case 3:
+//         Console.WriteLine("Marzo");
+
+//         break;
+//     case 4:
+//         Console.WriteLine("Abril");
+//         break;
+//     case 5:
+//         Console.WriteLine("Mayo");
+//         break;
+//     case 6:
+//         Console.WriteLine("Junio");
+//         break;
+//     case 7:
+//         Console.WriteLine("Julio");
+//         break;
+//     case 8:
+//         Console.WriteLine("Agosto");
+//         break;
+//     case 9:
+//         Console.WriteLine("Septiembre");
+//         break;
+//     case 10:
+//         Console.WriteLine("Octubre");
+//         break;
+//     case 11:
+//         Console.WriteLine("Noviembre");
+//         break;
+//     case 12:
+//         Console.WriteLine("Diciembre");
+//         break;
+
+//     default:
+//         Console.WriteLine("Opción no válida");
+//         break;
+// }
+
+//ejercicio 15
+Console.WriteLine("introduce un numero del 1 al 3");
+int numero15 = int.Parse(Console.ReadLine());
+string grado = numero15 switch
 {
-    case 1:
-        Console.WriteLine("Enero");
-
-        break;
-    case 2:
-        Console.WriteLine("Febrero");
-
-        break;
-    case 3:
-        Console.WriteLine("Marzo");
-
-        break;
-    case 4:
-        Console.WriteLine("Abril");
-        break;
-    case 5:
-        Console.WriteLine("Mayo");
-        break;
-    case 6:
-        Console.WriteLine("Junio");
-        break;
-    case 7:
-        Console.WriteLine("Julio");
-        break;
-    case 8:
-        Console.WriteLine("Agosto");
-        break;
-    case 9:
-        Console.WriteLine("Septiembre");
-        break;
-    case 10:
-        Console.WriteLine("Octubre");
-        break;
-    case 11:
-        Console.WriteLine("Noviembre");
-        break;
-    case 12:
-        Console.WriteLine("Diciembre");
-        break;
-
-    default:
-        Console.WriteLine("Opción no válida");
-        break;
-}
+    1=>"bajo",
+    2=>"medio",
+    3=>"alto",
+};
+Console.WriteLine($"el grado es {grado}");
