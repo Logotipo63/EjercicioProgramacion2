@@ -1,4 +1,5 @@
-﻿using System.Diagnostics.Tracing;
+﻿using System.Collections;
+using System.Diagnostics.Tracing;
 
 //Console.WriteLine("cual es tu edad?");
 //int edad =int.Parse(Console.ReadLine());
@@ -58,10 +59,27 @@ else Console.WriteLine("El numero no es mayor que cero");
 //else if (edad9>=18 && edad9<=64) Console.WriteLine("adulto");
 //else Console.WriteLine("persona mayor");
 
-//Ejercicio 10
-Console.WriteLine(" Introduce el precio del producto");
-double precioProducto = double.Parse(Console.ReadLine());
-if (precioProducto < 50) Console.WriteLine($"Precio del producto: {precioProducto}");
-else if (50 <= precioProducto && precioProducto < 100) Console.WriteLine($"Precio del producto con descuento: {precioProducto * 0.95}");
-else Console.WriteLine($"Precio del producto con descuento: {precioProducto * 0.90}");
+// //Ejercicio 10
+// Console.WriteLine(" Introduce el precio del producto");
+// double precioProducto = double.Parse(Console.ReadLine());
+// if (precioProducto < 50) Console.WriteLine($"Precio del producto: {precioProducto}");
+// else if (50 <= precioProducto && precioProducto < 100) Console.WriteLine($"Precio del producto con descuento: {precioProducto * 0.95}");
+// else Console.WriteLine($"Precio del producto con descuento: {precioProducto * 0.90}");
 	
+    //ejercicio 11
+    Console.WriteLine("introduce un nuemro del 1 al 7");
+    int diadelasemana = int.Parse(Console.ReadLine());
+    switch (diadelasemana) {case 1: Console.WriteLine ("lunes");
+    break;
+    case 2: Console.WriteLine ("martes");
+      break;
+    case 3: Console.WriteLine ("miercoles");
+      break;
+    case 4: Console.WriteLine ("jueves");
+       break;
+    case 5: Console.WriteLine ("viernes");
+         break;
+    case 6: Console.WriteLine ("sabado");
+          break;
+    default: Console.WriteLine ("domingo");
+    break;}
