@@ -27,11 +27,19 @@ else Console.WriteLine("El numero no es mayor que cero");
 //int numero3 =int.Parse(Console.ReadLine());
 //if (numero3 % 2 ==0) Console.WriteLine("es par");
 
-//Ejercicio 6
-Console.WriteLine("Introduce un numero entero entre 255 y -255");
-int numero6 = int.Parse(Console.ReadLine());
-if (numero6 > 0) Console.WriteLine("El numero es positivo");
-    else if (numero6 < 0) Console.WriteLine("El numero es negativo");
-        else Console.WriteLine("El numero es cero");
+// //Ejercicio 6
+// Console.WriteLine("Introduce un numero entero entre 255 y -255");
+// int numero6 = int.Parse(Console.ReadLine());
+// if (numero6 > 0) Console.WriteLine("El numero es positivo");
+//     else if (numero6 < 0) Console.WriteLine("El numero es negativo");
+//         else Console.WriteLine("El numero es cero");
+  
+  //ejercicio7
+  string contraseñacorrecta ="1234";
+  Console.WriteLine("escribe una contraseña");
+  string contraseña7 = Console.ReadLine();
+  if (contraseñacorrecta==contraseña7) Console.WriteLine("contraseña correcta");
+  else Console.WriteLine("contraseña incorrecta");
+
   
 
