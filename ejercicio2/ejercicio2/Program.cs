@@ -65,21 +65,40 @@ else Console.WriteLine("El numero no es mayor que cero");
 // if (precioProducto < 50) Console.WriteLine($"Precio del producto: {precioProducto}");
 // else if (50 <= precioProducto && precioProducto < 100) Console.WriteLine($"Precio del producto con descuento: {precioProducto * 0.95}");
 // else Console.WriteLine($"Precio del producto con descuento: {precioProducto * 0.90}");
-	
-    //ejercicio 11
-    Console.WriteLine("introduce un nuemro del 1 al 7");
-    int diadelasemana = int.Parse(Console.ReadLine());
-    switch (diadelasemana) {case 1: Console.WriteLine ("lunes");
-    break;
-    case 2: Console.WriteLine ("martes");
-      break;
-    case 3: Console.WriteLine ("miercoles");
-      break;
-    case 4: Console.WriteLine ("jueves");
-       break;
-    case 5: Console.WriteLine ("viernes");
-         break;
-    case 6: Console.WriteLine ("sabado");
-          break;
-    default: Console.WriteLine ("domingo");
-    break;}
+
+////ejercicio 11
+//Console.WriteLine("introduce un nuemro del 1 al 7");
+//int diadelasemana = int.Parse(Console.ReadLine());
+//switch (diadelasemana) {case 1: Console.WriteLine ("lunes");
+//break;
+//case 2: Console.WriteLine ("martes");
+//  break;
+//case 3: Console.WriteLine ("miercoles");
+//  break;
+//case 4: Console.WriteLine ("jueves");
+//   break;
+//case 5: Console.WriteLine ("viernes");
+//     break;
+//case 6: Console.WriteLine ("sabado");
+//      break;
+//default: Console.WriteLine ("domingo");
+//break;}
+
+//Ejercicio 12
+Console.WriteLine("MENU: \n 1.- Crear \n 2.- Consultar \n 3.- Modificar \n 4.- Elminiar");
+Console.WriteLine("Elija una opción.");
+int opcion = int.Parse(Console.ReadLine());
+
+switch (opcion)
+{
+    case 1: Console.WriteLine ("Crear");
+        break;
+    case 2: Console.WriteLine("Consultar");
+        break;
+    case 3: Console.WriteLine ("Modificar");
+        break;
+    case 4: Console.WriteLine ("Eliminar");
+        break;
+    default: Console.WriteLine ("Opción no válida");
+        break;
+ }
