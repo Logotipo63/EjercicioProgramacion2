@@ -33,13 +33,23 @@ else Console.WriteLine("El numero no es mayor que cero");
 // if (numero6 > 0) Console.WriteLine("El numero es positivo");
 //     else if (numero6 < 0) Console.WriteLine("El numero es negativo");
 //         else Console.WriteLine("El numero es cero");
-  
-  //ejercicio7
-  string contraseñacorrecta ="1234";
-  Console.WriteLine("escribe una contraseña");
-  string contraseña7 = Console.ReadLine();
-  if (contraseñacorrecta==contraseña7) Console.WriteLine("contraseña correcta");
-  else Console.WriteLine("contraseña incorrecta");
+
+////ejercicio7
+//string contraseñacorrecta ="1234";
+//Console.WriteLine("escribe una contraseña");
+//string contraseña7 = Console.ReadLine();
+//if (contraseñacorrecta==contraseña7) Console.WriteLine("contraseña correcta");
+//else Console.WriteLine("contraseña incorrecta");
+
+// Ejercicio 8
+Console.WriteLine("Introduce la nota");
+double nota8 = double.Parse(Console.ReadLine());
+if (nota8 < 5) Console.WriteLine("Suspenso");
+else if (5 < nota8 && nota8 < 6) Console.WriteLine("Aprobado");
+else if (7< nota8 && nota8 <8) Console.WriteLine("Notable");
+else if (nota8 > 8) Console.WriteLine("Sobresaliente");
+else Console.WriteLine("Bien");
+
 
   
 
