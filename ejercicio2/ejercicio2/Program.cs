@@ -41,14 +41,22 @@ else Console.WriteLine("El numero no es mayor que cero");
 //if (contraseñacorrecta==contraseña7) Console.WriteLine("contraseña correcta");
 //else Console.WriteLine("contraseña incorrecta");
 
-// Ejercicio 8
-Console.WriteLine("Introduce la nota");
-double nota8 = double.Parse(Console.ReadLine());
-if (nota8 < 5) Console.WriteLine("Suspenso");
-else if (5 < nota8 && nota8 < 6) Console.WriteLine("Aprobado");
-else if (7< nota8 && nota8 <8) Console.WriteLine("Notable");
-else if (nota8 > 8) Console.WriteLine("Sobresaliente");
-else Console.WriteLine("Bien");
+// // Ejercicio 8
+// Console.WriteLine("Introduce la nota");
+// double nota8 = double.Parse(Console.ReadLine());
+// if (nota8 < 5) Console.WriteLine("Suspenso");
+// else if (5 < nota8 && nota8 < 6) Console.WriteLine("Aprobado");
+// else if (7< nota8 && nota8 <8) Console.WriteLine("Notable");
+// else if (nota8 > 8) Console.WriteLine("Sobresaliente");
+// else Console.WriteLine("Bien");
+
+//ejercicio 9
+Console.WriteLine("introduce tu edad");
+int edad9 = int.Parse(Console.ReadLine());
+if (edad9<13) Console.WriteLine("niño");
+else if (edad9>=13 && edad9<=17) Console.WriteLine("adolecente");
+else if (edad9>=18 && edad9<=64) Console.WriteLine("adulto");
+else Console.WriteLine("persona mayor");
 
 
   
