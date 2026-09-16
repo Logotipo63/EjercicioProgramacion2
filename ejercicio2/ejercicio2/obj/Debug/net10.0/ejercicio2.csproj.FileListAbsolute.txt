@@ -27,3 +27,4 @@ C:\Users\Alumno9\Desktop\TRABAJOS HUMBERTO\VISUAL STUDIO\PROYECOS VS\Ejercicio2C
 C:\Users\Alumno9\Desktop\TRABAJOS HUMBERTO\VISUAL STUDIO\PROYECOS VS\Ejercicio2C#\ejercicio2\ejercicio2\bin\Debug\net10.0\ejercicio2.pdb
 C:\Users\Alumno9\Desktop\TRABAJOS HUMBERTO\VISUAL STUDIO\PROYECOS VS\Ejercicio2C#\ejercicio2\ejercicio2\obj\Debug\net10.0\ejercicio2.genruntimeconfig.cache
 C:\Users\Alumno9\Desktop\TRABAJOS HUMBERTO\VISUAL STUDIO\PROYECOS VS\Ejercicio2C#\ejercicio2\ejercicio2\obj\Debug\net10.0\ref\ejercicio2.dll
+C:\Users\Alumno16\EjercicioProgramacion2\ejercicio2\ejercicio2\obj\Debug\net10.0\ejercicio2.sourcelink.json
