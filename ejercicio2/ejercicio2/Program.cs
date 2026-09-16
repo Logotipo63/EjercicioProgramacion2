@@ -64,5 +64,4 @@ double precioProducto = double.Parse(Console.ReadLine());
 if (precioProducto < 50) Console.WriteLine($"Precio del producto: {precioProducto}");
 else if (50 <= precioProducto && precioProducto < 100) Console.WriteLine($"Precio del producto con descuento: {precioProducto * 0.95}");
 else Console.WriteLine($"Precio del producto con descuento: {precioProducto * 0.90}");
-
 	
