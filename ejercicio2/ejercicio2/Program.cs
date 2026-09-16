@@ -12,8 +12,12 @@ if (numero2 > 0) Console.WriteLine("El numero es mayor que cero");
 else Console.WriteLine("El numero no es mayor que cero");
    
  */
- // ejercicio3
- Console.WriteLine("pon tu nota");
- double nota3 =double.Parse(Console.ReadLine());
- if (nota3>=5) Console.WriteLine("aprobado");
- 
+// ejercicio3
+//Console.WriteLine("pon tu nota");
+//double nota3 =double.Parse(Console.ReadLine());
+//if (nota3>=5) Console.WriteLine("aprobado");
+
+//Ejercicio 4
+Console.WriteLine("Introduce la temperatura en ºC ");
+double temperatura4 = double.Parse(Console.ReadLine());
+if (temperatura4 > 30) Console.WriteLine("Hace calor");
