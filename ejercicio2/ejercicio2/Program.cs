@@ -51,13 +51,18 @@ else Console.WriteLine("El numero no es mayor que cero");
 // else Console.WriteLine("Bien");
 
 //ejercicio 9
-Console.WriteLine("introduce tu edad");
-int edad9 = int.Parse(Console.ReadLine());
-if (edad9<13) Console.WriteLine("niño");
-else if (edad9>=13 && edad9<=17) Console.WriteLine("adolecente");
-else if (edad9>=18 && edad9<=64) Console.WriteLine("adulto");
-else Console.WriteLine("persona mayor");
+//Console.WriteLine("introduce tu edad");
+//int edad9 = int.Parse(Console.ReadLine());
+//if (edad9<13) Console.WriteLine("niño");
+//else if (edad9>=13 && edad9<=17) Console.WriteLine("adolecente");
+//else if (edad9>=18 && edad9<=64) Console.WriteLine("adulto");
+//else Console.WriteLine("persona mayor");
 
+//Ejercicio 10
+Console.WriteLine(" Introduce el precio del producto");
+double precioProducto = double.Parse(Console.ReadLine());
+if (precioProducto < 50) Console.WriteLine($"Precio del producto: {precioProducto}");
+else if (50 <= precioProducto && precioProducto < 100) Console.WriteLine($"Precio del producto con descuento: {precioProducto * 0.95}");
+else Console.WriteLine($"Precio del producto con descuento: {precioProducto * 0.90}");
 
-  
-
+	
