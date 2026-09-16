@@ -23,6 +23,15 @@ else Console.WriteLine("El numero no es mayor que cero");
 // if (temperatura4 > 30) Console.WriteLine("Hace calor");
 
 // ejercicio5
-Console.Write("introduce un numero entero: ");
-int numero3 =int.Parse(Console.ReadLine());
-if (numero3 % 2 ==0) Console.WriteLine("es par");
+//Console.Write("introduce un numero entero: ");
+//int numero3 =int.Parse(Console.ReadLine());
+//if (numero3 % 2 ==0) Console.WriteLine("es par");
+
+//Ejercicio 6
+Console.WriteLine("Introduce un numero entero entre 255 y -255");
+int numero6 = int.Parse(Console.ReadLine());
+if (numero6 > 0) Console.WriteLine("El numero es positivo");
+    else if (numero6 < 0) Console.WriteLine("El numero es negativo");
+        else Console.WriteLine("El numero es cero");
+  
+
