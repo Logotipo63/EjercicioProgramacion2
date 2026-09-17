@@ -438,15 +438,23 @@ else Console.WriteLine("El numero no es mayor que cero");
 //Console.WriteLine($"El valor máximo del array es {maximo}");
 //Console.WriteLine($"El valor minimo del array es {minimo}");
 
-//Ejercicio 35
-double[] arraydenotas = { 5.0, 5.5, 4.25, 3.12, 8.7, 9.1, 6.4 };
-double suma=0, media=0;
-foreach(double i in arraydenotas)
-{
-    suma = suma + i;
-    media = suma / arraydenotas.Length;
-}
-Console.WriteLine($"La suma de las notas es {suma} \nLa media de las notas es {media}");
+////Ejercicio 35
+//double[] arraydenotas = { 5.0, 5.5, 4.25, 3.12, 8.7, 9.1, 6.4 };
+//double suma=0, media=0;
+//foreach(double i in arraydenotas)
+//{
+//    suma = suma + i;
+//    media = suma / arraydenotas.Length;
+//}
+//Console.WriteLine($"La suma de las notas es {suma} \nLa media de las notas es {media}");
 
+//Ejercicio 36
+
+double[] arraydenotas = { 5.0, 5.5, 4.25, 3.12, 8.7, 9.1, 6.4 };
+foreach (double i in arraydenotas)
+{
+    if (i >= 5) Console.WriteLine($"NOTA = {i}: Aprobado");
+    else Console.WriteLine($"NOTA = {i}: Suspenso");
+}
 
 
