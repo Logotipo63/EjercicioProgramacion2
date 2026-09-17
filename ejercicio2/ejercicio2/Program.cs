@@ -187,12 +187,28 @@ else Console.WriteLine("El numero no es mayor que cero");
 // }
 
 //ejercicio 15
-Console.WriteLine("introduce un numero del 1 al 3");
-int numero15 = int.Parse(Console.ReadLine());
-string grado = numero15 switch
+//Console.WriteLine("introduce un numero del 1 al 3");
+//int numero15 = int.Parse(Console.ReadLine());
+//string grado = numero15 switch
+//{
+//    1=>"bajo",
+//    2=>"medio",
+//    3=>"alto",
+//};
+//Console.WriteLine($"el grado es {grado}");
+
+//Ejercicio 16
+Console.WriteLine("Elige un numero del 1 al 7");
+int numero16 = int.Parse(Console.ReadLine());
+string diasemcorto = numero16 switch
 {
-    1=>"bajo",
-    2=>"medio",
-    3=>"alto",
+    1 => "Lun",
+    2 => "Mar",
+    3 => "Mie",
+    4 => "Jue",
+    5 => "Vie",
+    6 => "Sab",
+    7 => "Dom",
+    _ => "???",
 };
-Console.WriteLine($"el grado es {grado}");
+Console.WriteLine($" {diasemcorto} ");
