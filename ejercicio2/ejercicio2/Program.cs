@@ -409,9 +409,17 @@ else Console.WriteLine("El numero no es mayor que cero");
 
 //Ejercicio 32
 
-string[] nombresarray = { "Ana", "Luis", "Carlos", "Marta" };
-foreach (string nombre in nombresarray)
+//string[] nombresarray = { "Ana", "Luis", "Carlos", "Marta" };
+//foreach (string nombre in nombresarray)
+//{
+//    Console.WriteLine(nombre);
+//}
+
+//Ejercicio 33
+int[] numeros33 = { 10, 20, 30, 40, 50 };
+numeros33[1] = 100;
+foreach (int numeroarray in numeros33)
 {
-    Console.WriteLine(nombre);
+    Console.Write($"{numeroarray},");
 }
 
