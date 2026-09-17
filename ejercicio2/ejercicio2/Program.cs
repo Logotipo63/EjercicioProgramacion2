@@ -373,21 +373,29 @@ else Console.WriteLine("El numero no es mayor que cero");
 // {
 //     suma = suma + numero28;
 //     Console.WriteLine($" introduce otro numero para sumarlo");
-    
-    
+
+
 //     numero28 = int.Parse(Console.ReadLine());
 
 // }
 // Console.WriteLine($"la suma de todos los numeros introducidos es {suma}");
 
 // ejercicio 29
-string contraseña;
+//string contraseña;
+//do
+//{
+//   Console.WriteLine("introduce la contraseña"); 
+//   contraseña=Console.ReadLine();
+//}    
+//while(contraseña!="abc123");
 
-
+//Ejercicio 30
+int opcion;
 do
 {
-   Console.WriteLine("introduce la contraseña"); 
-   contraseña=Console.ReadLine();
-}    
-while(contraseña!="abc123");
+    Console.WriteLine("elige una opción de la siguientes");
+    Console.WriteLine("1.- Saludar \n2.- Mostrar fecha \n3.- Salir");
+    opcion = int.Parse(Console.ReadLine());
+}
+while (opcion != 3);
 
