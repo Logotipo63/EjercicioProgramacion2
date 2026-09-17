@@ -510,26 +510,19 @@ else Console.WriteLine("El numero no es mayor que cero");
 // };
 // Console.WriteLine($"{estadodenivel}");
 
-//Ejercicio 42: Analizador de notas
-double[] cinconotas = new double[5];
-Console.WriteLine("Por favor, introduce 5 notas");
-double sumanotas=0;
-for (int i=0;i<cinconotas.Length;i++)
-{
-Console.WriteLine($"Introduce la nota {i+1}");
-cinconotas[i]=double.Parse(Console.ReadLine());
-sumanotas=sumanotas + cinconotas[i];
-}
-Console.WriteLine($"el numero de notas introducido es {cinconotas.Length}");
-double notamedia=sumanotas/cinconotas.Length;       
-double notamayor=0, notamenor=10;
+// 
 
-int aprobados=0, suspensos=0;
-foreach(double nota42 in cinconotas)
+//Ejercicio 43
+Console.WriteLine("DESCURE EL NUMERO SECRETO");
+Random generador=new Random();
+int aleatorio= generador.Next(1,1001);
+Console.WriteLine("Introduce un numero entero comprendido entre 1 y 1000");
+int numero;
+do 
 {
-if(nota42>notamayor) notamayor= nota42;
-if(nota42<notamenor) notamenor=nota42;
-if (nota42>5) aprobados=aprobados+1;
-else suspensos=suspensos+1;
-}
-Console.WriteLine($"La nota mediia es {notamedia}\nLa nota mayor es {notamayor}\nLa nota menor es {notamenor}\n Han aprobado {aprobados} alumnos\n Han suspendido {suspensos} alumnos.");
+    numero = int.Parse(Console.ReadLine());
+    if(numero>aleatorio) Console.WriteLine($"El numero secreto es menor que {numero}");
+    else Console.WriteLine($"El numero secreto es mayor que {numero}");
+    Console.WriteLine("Por favor introduce otro número");
+} while(numero!=aleatorio);
+Console.WriteLine($"!Enhorabuena!\n El numero secreto es {aleatorio}");
