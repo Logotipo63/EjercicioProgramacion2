@@ -458,14 +458,19 @@ else Console.WriteLine("El numero no es mayor que cero");
 //}
 
 //Ejercicio 37
-int aprobados = 0, suspensos = 0;
-double[] arraydenotas = { 5.0, 5.5, 4.25, 3.12, 8.7, 9.1, 6.4 };
-foreach (double i in arraydenotas)
-{
-    if (i >= 5) aprobados=aprobados+1;
-    else suspensos=suspensos+1;
-}
-Console.WriteLine($"Han aprobado {aprobados} alumnos \n Han suspendido {suspensos} alumnos");
+// int aprobados = 0, suspensos = 0;
+// double[] arraydenotas = { 5.0, 5.5, 4.25, 3.12, 8.7, 9.1, 6.4 };
+// foreach (double i in arraydenotas)
+// {
+//     if (i >= 5) aprobados=aprobados+1;
+//     else suspensos=suspensos+1;
+// }
+// Console.WriteLine($"Han aprobado {aprobados} alumnos \n Han suspendido {suspensos} alumnos");
 
+// ejercicio
+
+
+Color color = Color.rojo;
+Console.WriteLine(color);
 
 
