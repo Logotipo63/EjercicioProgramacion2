@@ -327,10 +327,20 @@ else Console.WriteLine("El numero no es mayor que cero");
 //    Console.WriteLine($"{tablade5} x {i} = {tablade5*i}");
 
 //}
-int i;
-int suma =0;
-for (i = 1; i <= 100; i++)
+// int i;
+// int suma =0;
+// for (i = 1; i <= 100; i++)
+// {
+//     suma = suma + i;
+// }
+// Console.WriteLine($"La suma de los numeros del 1 al 100 es {suma}");
+
+// ejercicio 25
+int i=1;
+while (i <= 10)
 {
-    suma = suma + i;
+Console.WriteLine($"{i}");
+i++;    
 }
-Console.WriteLine($"La suma de los numeros del 1 al 100 es {suma}");
+Console.WriteLine("salta a fuera");
+
