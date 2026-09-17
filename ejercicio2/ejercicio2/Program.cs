@@ -1,4 +1,5 @@
 ﻿using System.Collections;
+using System.Diagnostics.CodeAnalysis;
 using System.Diagnostics.Tracing;
 
 //Console.WriteLine("cual es tu edad?");
@@ -301,28 +302,35 @@ else Console.WriteLine("El numero no es mayor que cero");
 // }
 
 
-//ejercicio 
+//ejercicio 21
 //int i;
 //for ( i=1; i<=10;i++)
 //{
 //    Console.WriteLine($"{i*2}");
-    
+
 //}
 
 
-// //Ejercicio 21
+// //Ejercicio 22
 // int i;
 // for (i = 10; i >= 1; i--)
 // {
 //     Console.WriteLine($"{i} ");
 // }
 // ejercicio 23
-Console.WriteLine("introduce un numero");
-int tablade5 = int.Parse(Console.ReadLine());
-Console.WriteLine($"TABLA DEL {tablade5} ");
-int i;
-for (i = 1; i <= 10; i++)
-{
-    Console.WriteLine($"{tablade5} x {i} = {tablade5*i}");
+//Console.WriteLine("introduce un numero");
+//int tablade5 = int.Parse(Console.ReadLine());
+//Console.WriteLine($"TABLA DEL {tablade5} ");
+//int i;
+//for (i = 1; i <= 10; i++)
+//{
+//    Console.WriteLine($"{tablade5} x {i} = {tablade5*i}");
 
+//}
+int i;
+int suma =0;
+for (i = 1; i <= 100; i++)
+{
+    suma = suma + i;
 }
+Console.WriteLine($"La suma de los numeros del 1 al 100 es {suma}");
