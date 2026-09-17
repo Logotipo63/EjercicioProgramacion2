@@ -336,11 +336,20 @@ else Console.WriteLine("El numero no es mayor que cero");
 // Console.WriteLine($"La suma de los numeros del 1 al 100 es {suma}");
 
 // ejercicio 25
-int i=1;
-while (i <= 10)
+//int i=1;
+//while (i <= 10)
+//{
+//Console.WriteLine($"{i}");
+//i++;    
+//}
+//Console.WriteLine("salta a fuera");
+
+// ejercicio 26
+int i = 10;
+while (i >= 1)
 {
-Console.WriteLine($"{i}");
-i++;    
+    Console.WriteLine($"{i}");
+    i--;
 }
 Console.WriteLine("salta a fuera");
 
