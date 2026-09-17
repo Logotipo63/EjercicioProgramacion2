@@ -293,12 +293,18 @@ else Console.WriteLine("El numero no es mayor que cero");
 
 //}
 
-//Ejercicio 20
+// //Ejercicio 20
+// int i;
+// for (i = 1; i <= 10; i++) 
+// {
+//     Console.WriteLine($"{i} ");
+// }
+
+
+//ejercicio 
 int i;
-for (i = 1; i <= 10; i++) 
+for ( i=1; i<=10;i++)
 {
-    Console.WriteLine($"{i} ");
+    Console.WriteLine($"{i*2}");
+    
 }
-
-
-
