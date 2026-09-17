@@ -244,53 +244,61 @@ else Console.WriteLine("El numero no es mayor que cero");
 //     Console.WriteLine("El numero no es un entero");
 // }
 // ejericio 19
-object dato1 = 25;
-object dato2 = "hola";
-object dato3 = 8.5;
-if(dato1 is int numero1911)
-{
-    Console.WriteLine("dato1 es un numero entero");
+//object dato1 = 25;
+//object dato2 = "hola";
+//object dato3 = 8.5;
+//if(dato1 is int numero1911)
+//{
+//    Console.WriteLine("dato1 es un numero entero");
 
-}
-if(dato1 is double numero1912)
-{
-    Console.WriteLine("dato1 es double");
+//}
+//if(dato1 is double numero1912)
+//{
+//    Console.WriteLine("dato1 es double");
 
-}
-if (dato1 is string numero1913)
-{
-    Console.WriteLine("dato1 es un texto");
+//}
+//if (dato1 is string numero1913)
+//{
+//    Console.WriteLine("dato1 es un texto");
 
-}
-if(dato2 is int nuemro1921)
-{
-    Console.WriteLine("dato2 es un numero entero");
+//}
+//if(dato2 is int nuemro1921)
+//{
+//    Console.WriteLine("dato2 es un numero entero");
 
-}
-if(dato2 is double numero1922)
-{
-    Console.WriteLine("dato2 es double");
+//}
+//if(dato2 is double numero1922)
+//{
+//    Console.WriteLine("dato2 es double");
 
-}
-if(dato2 is string numero1923)
-{
-    Console.WriteLine("dato2 es un texto");
-    
-}
-if(dato3 is int nuemro1931)
-{
-    Console.WriteLine("dato3 es un numero entero");
+//}
+//if(dato2 is string numero1923)
+//{
+//    Console.WriteLine("dato2 es un texto");
 
-}
-if(dato3 is double numero1932)
-{
-    Console.WriteLine("dato3 es double");
+//}
+//if(dato3 is int nuemro1931)
+//{
+//    Console.WriteLine("dato3 es un numero entero");
 
-}
-if(dato3 is string numero1933)
+//}
+//if(dato3 is double numero1932)
+//{
+//    Console.WriteLine("dato3 es double");
+
+//}
+//if(dato3 is string numero1933)
+//{
+//    Console.WriteLine("dato3 es un texto");
+
+//}
+
+//Ejercicio 20
+int i;
+for (i = 1; i <= 10; i++) 
 {
-    Console.WriteLine("dato3 es un texto");
-    
+    Console.WriteLine($"{i} ");
 }
+
 
 
