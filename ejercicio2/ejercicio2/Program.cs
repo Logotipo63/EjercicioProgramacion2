@@ -365,17 +365,29 @@ else Console.WriteLine("El numero no es mayor que cero");
 //}
 //Console.WriteLine($"el numero correcto es {numero27}");
 
-//Ejercicio 28
-int suma=0;
-Console.WriteLine("introduce un numero");
-int numero28 = int.Parse(Console.ReadLine());
-while (numero28 != 0)
-{
-    suma = suma + numero28;
-    Console.WriteLine($" introduce otro numero para sumarlo");
+// //Ejercicio 28
+// int suma=0;
+// Console.WriteLine("introduce un numero");
+// int numero28 = int.Parse(Console.ReadLine());
+// while (numero28 != 0)
+// {
+//     suma = suma + numero28;
+//     Console.WriteLine($" introduce otro numero para sumarlo");
     
     
-    numero28 = int.Parse(Console.ReadLine());
+//     numero28 = int.Parse(Console.ReadLine());
 
-}
-Console.WriteLine($"la suma de todos los numeros introducidos es {suma}");
+// }
+// Console.WriteLine($"la suma de todos los numeros introducidos es {suma}");
+
+// ejercicio 29
+string contraseña;
+
+
+do
+{
+   Console.WriteLine("introduce la contraseña"); 
+   contraseña=Console.ReadLine();
+}    
+while(contraseña!="abc123");
+
