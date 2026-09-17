@@ -354,13 +354,28 @@ else Console.WriteLine("El numero no es mayor que cero");
 // Console.WriteLine("salta a fuera");
 
 // ejercicio 27
+//Console.WriteLine("introduce un numero");
+//int numero27 =int.Parse(Console.ReadLine());
+//while (numero27 != 0)
+//{
+//    Console.WriteLine($"el numero {numero27} no es correcto \n introduce otro numero");
+
+//    numero27 =int.Parse(Console.ReadLine());
+
+//}
+//Console.WriteLine($"el numero correcto es {numero27}");
+
+//Ejercicio 28
+int suma=0;
 Console.WriteLine("introduce un numero");
-int numero27 =int.Parse(Console.ReadLine());
-while (numero27 != 0)
+int numero28 = int.Parse(Console.ReadLine());
+while (numero28 != 0)
 {
-    Console.WriteLine($"el numero {numero27} no es correcto \n introduce otro numero");
+    suma = suma + numero28;
+    Console.WriteLine($" introduce otro numero para sumarlo");
     
-    numero27 =int.Parse(Console.ReadLine());
+    
+    numero28 = int.Parse(Console.ReadLine());
 
 }
-Console.WriteLine($"el numero correcto es {numero27}");
+Console.WriteLine($"la suma de todos los numeros introducidos es {suma}");
