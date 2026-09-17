@@ -227,19 +227,70 @@ else Console.WriteLine("El numero no es mayor que cero");
 //}
 
 //Ejercicio 18
-object dato18 = 15.5;
-if(dato18 is int resultado18)
+// object dato18 = 15.5;
+// if(dato18 is int resultado18)
+// {
+//     if (resultado18 > 18)
+//     {
+//         Console.WriteLine($"El numero es entero y su valor es {resultado18}, mayor que 18");
+//     }
+//     else 
+//     {
+//         Console.WriteLine("El numero es menor que 18");
+//     }
+// }
+// else 
+// {
+//     Console.WriteLine("El numero no es un entero");
+// }
+// ejericio 19
+object dato1 = 25;
+object dato2 = "hola";
+object dato3 = 8.5;
+if(dato1 is int numero1911)
 {
-    if (resultado18 > 18)
-    {
-        Console.WriteLine($"El numero es entero y su valor es {resultado18}, mayor que 18");
-    }
-    else 
-    {
-        Console.WriteLine("El numero es menor que 18");
-    }
+    Console.WriteLine("dato1 es un numero entero");
+
 }
-else 
+if(dato1 is double numero1912)
 {
-    Console.WriteLine("El numero no es un entero");
+    Console.WriteLine("dato1 es double");
+
 }
+if (dato1 is string numero1913)
+{
+    Console.WriteLine("dato1 es un texto");
+
+}
+if(dato2 is int nuemro1921)
+{
+    Console.WriteLine("dato2 es un numero entero");
+
+}
+if(dato2 is double numero1922)
+{
+    Console.WriteLine("dato2 es double");
+
+}
+if(dato2 is string numero1923)
+{
+    Console.WriteLine("dato2 es un texto");
+    
+}
+if(dato3 is int nuemro1931)
+{
+    Console.WriteLine("dato3 es un numero entero");
+
+}
+if(dato3 is double numero1932)
+{
+    Console.WriteLine("dato3 es double");
+
+}
+if(dato3 is string numero1933)
+{
+    Console.WriteLine("dato3 es un texto");
+    
+}
+
+
