@@ -212,15 +212,34 @@ else Console.WriteLine("El numero no es mayor que cero");
 //     _ => "???",
 // };
 // Console.WriteLine($" {diasemcorto} ");
-//ejercicio 17
-object dato = 25.5;
-if (dato is int numero17)
-{
-    Console.WriteLine($"el dato es un numero entero y su valor es {numero17}");
 
+//ejercicio 17
+//object dato = 25.5;
+//if (dato is int numero17)
+//{
+//    Console.WriteLine($"el dato es un numero entero y su valor es {numero17}");
+
+//}
+//else
+//{ 
+//    Console.WriteLine("el dato no es un numero entero");
+
+//}
+
+//Ejercicio 18
+object dato18 = 15.5;
+if(dato18 is int resultado18)
+{
+    if (resultado18 > 18)
+    {
+        Console.WriteLine($"El numero es entero y su valor es {resultado18}, mayor que 18");
+    }
+    else 
+    {
+        Console.WriteLine("El numero es menor que 18");
+    }
 }
-else
-{ 
-    Console.WriteLine("el dato no es un numero entero");
-    
+else 
+{
+    Console.WriteLine("El numero no es un entero");
 }
