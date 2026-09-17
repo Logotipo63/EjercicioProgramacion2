@@ -302,9 +302,17 @@ else Console.WriteLine("El numero no es mayor que cero");
 
 
 //ejercicio 
-int i;
-for ( i=1; i<=10;i++)
-{
-    Console.WriteLine($"{i*2}");
+//int i;
+//for ( i=1; i<=10;i++)
+//{
+//    Console.WriteLine($"{i*2}");
     
+//}
+
+
+//Ejercicio 21
+int i;
+for (i = 10; i >= 1; i--)
+{
+    Console.WriteLine($"{i} ");
 }
