@@ -400,9 +400,18 @@ else Console.WriteLine("El numero no es mayor que cero");
 // while (opcion != 3);
 
 //ejercico 31
-int [] enteros ={7,2,14,4,5};
-int i;
-for (i=0; i <= 4; i++)
+//int [] enteros ={7,2,14,4,5};
+//int i;
+//for (i=0; i <= 4; i++)
+//{
+//    Console.WriteLine($" {enteros[i]}");
+//}
+
+//Ejercicio 32
+
+string[] nombresarray = { "Ana", "Luis", "Carlos", "Marta" };
+foreach (string nombre in nombresarray)
 {
-    Console.WriteLine($" {enteros[i]}");
+    Console.WriteLine(nombre);
 }
+
