@@ -468,12 +468,12 @@ else Console.WriteLine("El numero no es mayor que cero");
 // }
 // Console.WriteLine($"Han aprobado {aprobados} alumnos \n Han suspendido {suspensos} alumnos");
 
-//Ejercicio 38
-int[] numerosenteros={2,5,4,9,87,12,54,66,97,21,15};
-foreach (int i in numerosenteros)
-{
-if (i%2==0) Console.WriteLine($"{i}");
-}
+////Ejercicio 38
+// int[] numerosenteros={2,5,4,9,87,12,54,66,97,21,15};
+// foreach (int i in numerosenteros)
+// {
+// if (i%2==0) Console.WriteLine($"{i}");
+// }
 
 
 //// ejercicio 39
@@ -482,7 +482,30 @@ if (i%2==0) Console.WriteLine($"{i}");
 // Color color = Color.rojo;
 // Console.WriteLine(color);
 
-//Ejercicio 40
-//Primero creamos el elemento 
+// //Ejercicio 40
+// //Primero creamos el elemento Nivel.cs 
+// Nivel nivel=Nivel.Bajo;
+// switch (nivel){
+//     case Nivel.Bajo:{
+//         Console.WriteLine(" El nivel es Bajo");
+//         break;
+//     }
+//     case Nivel.Medio:{
+//         Console.WriteLine("El nivel es Medio");
+//         break;
+//     }
+//     case Nivel.Alto:{
+//         Console.WriteLine("El nivel es Alto");
+//         break;
+//     }
+// }
 
-
+//Ejercicio 41: enum + switch expressions
+Nivel nivel=Nivel.Bajo;
+string estadodenivel = nivel switch 
+{
+    Nivel.Bajo=> " El nivel es Bajo",
+    Nivel.Medio=>"El nivel es Medio",
+    Nivel.Alto=>"El nivel es Alto",
+};
+Console.WriteLine($"{estadodenivel}");
