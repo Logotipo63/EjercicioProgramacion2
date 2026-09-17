@@ -500,12 +500,36 @@ else Console.WriteLine("El numero no es mayor que cero");
 //     }
 // }
 
-//Ejercicio 41: enum + switch expressions
-Nivel nivel=Nivel.Bajo;
-string estadodenivel = nivel switch 
+// //Ejercicio 41: enum + switch expressions
+// Nivel nivel=Nivel.Bajo;
+// string estadodenivel = nivel switch 
+// {
+//     Nivel.Bajo=> " El nivel es Bajo",
+//     Nivel.Medio=>"El nivel es Medio",
+//     Nivel.Alto=>"El nivel es Alto",
+// };
+// Console.WriteLine($"{estadodenivel}");
+
+//Ejercicio 42: Analizador de notas
+double[] cinconotas = new double[5];
+Console.WriteLine("Por favor, introduce 5 notas");
+double sumanotas=0;
+for (int i=0;i<cinconotas.Length;i++)
 {
-    Nivel.Bajo=> " El nivel es Bajo",
-    Nivel.Medio=>"El nivel es Medio",
-    Nivel.Alto=>"El nivel es Alto",
-};
-Console.WriteLine($"{estadodenivel}");
+Console.WriteLine($"Introduce la nota {i+1}");
+cinconotas[i]=double.Parse(Console.ReadLine());
+sumanotas=sumanotas + cinconotas[i];
+}
+Console.WriteLine($"el numero de notas introducido es {cinconotas.Length}");
+double notamedia=sumanotas/cinconotas.Length;       
+double notamayor=0, notamenor=10;
+
+int aprobados=0, suspensos=0;
+foreach(double nota42 in cinconotas)
+{
+if(nota42>notamayor) notamayor= nota42;
+if(nota42<notamenor) notamenor=nota42;
+if (nota42>5) aprobados=aprobados+1;
+else suspensos=suspensos+1;
+}
+Console.WriteLine($"La nota mediia es {notamedia}\nLa nota mayor es {notamayor}\nLa nota menor es {notamenor}\n Han aprobado {aprobados} alumnos\n Han suspendido {suspensos} alumnos.");
