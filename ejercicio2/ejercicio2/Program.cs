@@ -448,13 +448,24 @@ else Console.WriteLine("El numero no es mayor que cero");
 //}
 //Console.WriteLine($"La suma de las notas es {suma} \nLa media de las notas es {media}");
 
-//Ejercicio 36
+////Ejercicio 36
 
+//double[] arraydenotas = { 5.0, 5.5, 4.25, 3.12, 8.7, 9.1, 6.4 };
+//foreach (double i in arraydenotas)
+//{
+//    if (i >= 5) Console.WriteLine($"NOTA = {i}: Aprobado");
+//    else Console.WriteLine($"NOTA = {i}: Suspenso");
+//}
+
+//Ejercicio 37
+int aprobados = 0, suspensos = 0;
 double[] arraydenotas = { 5.0, 5.5, 4.25, 3.12, 8.7, 9.1, 6.4 };
 foreach (double i in arraydenotas)
 {
-    if (i >= 5) Console.WriteLine($"NOTA = {i}: Aprobado");
-    else Console.WriteLine($"NOTA = {i}: Suspenso");
+    if (i >= 5) aprobados=aprobados+1;
+    else suspensos=suspensos+1;
 }
+Console.WriteLine($"Han aprobado {aprobados} alumnos \n Han suspendido {suspensos} alumnos");
+
 
 
