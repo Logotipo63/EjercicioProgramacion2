@@ -8,24 +8,32 @@
     "net10.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Alumno16\\.nuget\\packages\\": {}
+    "C:\\Users\\34630\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Alumno16\\ejercicioprogramacion2\\ejercicio2\\ejercicio2\\ejercicio2.csproj",
+      "projectUniqueName": "C:\\Users\\34630\\Desktop\\COPERMATICA\\Ejercicios2026\\Ejerciio2C#\\ejercicioProgramacion2\\ejercicio2\\ejercicio2\\ejercicio2.csproj",
       "projectName": "ejercicio2",
-      "projectPath": "C:\\Users\\Alumno16\\ejercicioprogramacion2\\ejercicio2\\ejercicio2\\ejercicio2.csproj",
-      "packagesPath": "C:\\Users\\Alumno16\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Alumno16\\ejercicioprogramacion2\\ejercicio2\\ejercicio2\\obj\\",
+      "projectPath": "C:\\Users\\34630\\Desktop\\COPERMATICA\\Ejercicios2026\\Ejerciio2C#\\ejercicioProgramacion2\\ejercicio2\\ejercicio2\\ejercicio2.csproj",
+      "packagesPath": "C:\\Users\\34630\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\34630\\Desktop\\COPERMATICA\\Ejercicios2026\\Ejerciio2C#\\ejercicioProgramacion2\\ejercicio2\\ejercicio2\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\Alumno16\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\34630\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net10.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {

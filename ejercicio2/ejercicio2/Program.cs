@@ -1,12 +1,12 @@
 ﻿using System.Collections;
 using System.Diagnostics.CodeAnalysis;
 using System.Diagnostics.Tracing;
-
+////Ejercicio 1
 //Console.WriteLine("cual es tu edad?");
 //int edad =int.Parse(Console.ReadLine());
 //if (edad>=18) Console.WriteLine("es mayor de edad");
 
-// //Ejercicio 2
+////Ejercicio 2
 
 /* Console.WriteLine("Esribe un numero entero");
 int numero2 =int.Parse(Console.ReadLine());
@@ -14,36 +14,36 @@ if (numero2 > 0) Console.WriteLine("El numero es mayor que cero");
 else Console.WriteLine("El numero no es mayor que cero");
    
  */
-// // ejercicio3
+//// ejercicio3
 //Console.WriteLine("pon tu nota");
 //double nota3 =double.Parse(Console.ReadLine());
 //if (nota3>=5) Console.WriteLine("aprobado");
 
-// // //Ejercicio 4
+////Ejercicio 4
 // Console.WriteLine("Introduce la temperatura en ºC ");
 // double temperatura4 = double.Parse(Console.ReadLine());
 // if (temperatura4 > 30) Console.WriteLine("Hace calor");
 
-// // ejercicio5
+//// ejercicio5
 //Console.Write("introduce un numero entero: ");
 //int numero3 =int.Parse(Console.ReadLine());
 //if (numero3 % 2 ==0) Console.WriteLine("es par");
 
-// //Ejercicio 6
+////Ejercicio 6
 // Console.WriteLine("Introduce un numero entero entre 255 y -255");
 // int numero6 = int.Parse(Console.ReadLine());
 // if (numero6 > 0) Console.WriteLine("El numero es positivo");
 //     else if (numero6 < 0) Console.WriteLine("El numero es negativo");
 //         else Console.WriteLine("El numero es cero");
 
-// //ejercicio7
+////ejercicio7
 //string contraseñacorrecta ="1234";
 //Console.WriteLine("escribe una contraseña");
 //string contraseña7 = Console.ReadLine();
 //if (contraseñacorrecta==contraseña7) Console.WriteLine("contraseña correcta");
 //else Console.WriteLine("contraseña incorrecta");
 
-// // Ejercicio 8
+//// Ejercicio 8
 // Console.WriteLine("Introduce la nota");
 // double nota8 = double.Parse(Console.ReadLine());
 // if (nota8 < 5) Console.WriteLine("Suspenso");
@@ -52,7 +52,7 @@ else Console.WriteLine("El numero no es mayor que cero");
 // else if (nota8 > 8) Console.WriteLine("Sobresaliente");
 // else Console.WriteLine("Bien");
 
-// //ejercicio 9
+////ejercicio 9
 //Console.WriteLine("introduce tu edad");
 //int edad9 = int.Parse(Console.ReadLine());
 //if (edad9<13) Console.WriteLine("niño");
@@ -60,14 +60,14 @@ else Console.WriteLine("El numero no es mayor que cero");
 //else if (edad9>=18 && edad9<=64) Console.WriteLine("adulto");
 //else Console.WriteLine("persona mayor");
 
-// //Ejercicio 10
+////Ejercicio 10
 // Console.WriteLine(" Introduce el precio del producto");
 // double precioProducto = double.Parse(Console.ReadLine());
 // if (precioProducto < 50) Console.WriteLine($"Precio del producto: {precioProducto}");
 // else if (50 <= precioProducto && precioProducto < 100) Console.WriteLine($"Precio del producto con descuento: {precioProducto * 0.95}");
 // else Console.WriteLine($"Precio del producto con descuento: {precioProducto * 0.90}");
 
-// //ejercicio 11
+////ejercicio 11
 //Console.WriteLine("introduce un nuemro del 1 al 7");
 //int diadelasemana = int.Parse(Console.ReadLine());
 //switch (diadelasemana) {case 1: Console.WriteLine ("lunes");
@@ -85,7 +85,7 @@ else Console.WriteLine("El numero no es mayor que cero");
 //default: Console.WriteLine ("domingo");
 //break;}
 
-// //Ejercicio 12
+////Ejercicio 12
 // Console.WriteLine("MENU: \n 1.- Crear \n 2.- Consultar \n 3.- Modificar \n 4.- Elminiar");
 // Console.WriteLine("Elija una opción.");
 // int opcion = int.Parse(Console.ReadLine());
@@ -103,7 +103,7 @@ else Console.WriteLine("El numero no es mayor que cero");
 //     default: Console.WriteLine ("Opción no válida");
 //         break;
 //  }
-// //ejercicio 13
+////ejercicio 13
 // Console.WriteLine("elige operacion matematica: \n 1.- * \n 2.- + \n 3.- - \n 4.- /");
 //Console.WriteLine("Elija una opción.");
 //int opcion = int.Parse(Console.ReadLine());
@@ -135,7 +135,7 @@ else Console.WriteLine("El numero no es mayor que cero");
 //        break;
 //}
 
-// //Ejercicio 14
+////Ejercicio 14
 // Console.WriteLine("elige un numero del 1 al 12");
 // int opcion = int.Parse(Console.ReadLine());
 
@@ -187,7 +187,7 @@ else Console.WriteLine("El numero no es mayor que cero");
 //         break;
 // }
 
-// //ejercicio 15
+////ejercicio 15
 //Console.WriteLine("introduce un numero del 1 al 3");
 //int numero15 = int.Parse(Console.ReadLine());
 //string grado = numero15 switch
@@ -198,7 +198,7 @@ else Console.WriteLine("El numero no es mayor que cero");
 //};
 //Console.WriteLine($"el grado es {grado}");
 
-// //Ejercicio 16
+////Ejercicio 16
 // Console.WriteLine("Elige un numero del 1 al 7");
 // int numero16 = int.Parse(Console.ReadLine());
 // string diasemcorto = numero16 switch
@@ -214,7 +214,7 @@ else Console.WriteLine("El numero no es mayor que cero");
 // };
 // Console.WriteLine($" {diasemcorto} ");
 
-//ejercicio 17
+////ejercicio 17
 //object dato = 25.5;
 //if (dato is int numero17)
 //{
@@ -311,7 +311,7 @@ else Console.WriteLine("El numero no es mayor que cero");
 //}
 
 
-// //Ejercicio 22
+////Ejercicio 22
 // int i;
 // for (i = 10; i >= 1; i--)
 // {
@@ -327,6 +327,7 @@ else Console.WriteLine("El numero no es mayor que cero");
 //    Console.WriteLine($"{tablade5} x {i} = {tablade5*i}");
 
 //}
+////Ejercicio 24
 // int i;
 // int suma =0;
 // for (i = 1; i <= 100; i++)
@@ -353,7 +354,7 @@ else Console.WriteLine("El numero no es mayor que cero");
 // }
 // Console.WriteLine("salta a fuera");
 
-// ejercicio 27
+////ejercicio 27
 //Console.WriteLine("introduce un numero");
 //int numero27 =int.Parse(Console.ReadLine());
 //while (numero27 != 0)
@@ -399,7 +400,7 @@ else Console.WriteLine("El numero no es mayor que cero");
 // }
 // while (opcion != 3);
 
-//ejercico 31
+////ejercico 31
 //int [] enteros ={7,2,14,4,5};
 //int i;
 //for (i=0; i <= 4; i++)
@@ -457,7 +458,7 @@ else Console.WriteLine("El numero no es mayor que cero");
 //    else Console.WriteLine($"NOTA = {i}: Suspenso");
 //}
 
-//Ejercicio 37
+////Ejercicio 37
 // int aprobados = 0, suspensos = 0;
 // double[] arraydenotas = { 5.0, 5.5, 4.25, 3.12, 8.7, 9.1, 6.4 };
 // foreach (double i in arraydenotas)
@@ -467,10 +468,21 @@ else Console.WriteLine("El numero no es mayor que cero");
 // }
 // Console.WriteLine($"Han aprobado {aprobados} alumnos \n Han suspendido {suspensos} alumnos");
 
-// ejercicio
+//Ejercicio 38
+int[] numerosenteros={2,5,4,9,87,12,54,66,97,21,15};
+foreach (int i in numerosenteros)
+{
+if (i%2==0) Console.WriteLine($"{i}");
+}
 
 
-Color color = Color.rojo;
-Console.WriteLine(color);
+//// ejercicio 39
+////Crea previamente el elemento Color.cs
+
+// Color color = Color.rojo;
+// Console.WriteLine(color);
+
+//Ejercicio 40
+//Primero creamos el elemento 
 
 
