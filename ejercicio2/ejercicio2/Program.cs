@@ -197,18 +197,30 @@ else Console.WriteLine("El numero no es mayor que cero");
 //};
 //Console.WriteLine($"el grado es {grado}");
 
-//Ejercicio 16
-Console.WriteLine("Elige un numero del 1 al 7");
-int numero16 = int.Parse(Console.ReadLine());
-string diasemcorto = numero16 switch
+// //Ejercicio 16
+// Console.WriteLine("Elige un numero del 1 al 7");
+// int numero16 = int.Parse(Console.ReadLine());
+// string diasemcorto = numero16 switch
+// {
+//     1 => "Lun",
+//     2 => "Mar",
+//     3 => "Mie",
+//     4 => "Jue",
+//     5 => "Vie",
+//     6 => "Sab",
+//     7 => "Dom",
+//     _ => "???",
+// };
+// Console.WriteLine($" {diasemcorto} ");
+//ejercicio 17
+object dato = 25.5;
+if (dato is int numero17)
 {
-    1 => "Lun",
-    2 => "Mar",
-    3 => "Mie",
-    4 => "Jue",
-    5 => "Vie",
-    6 => "Sab",
-    7 => "Dom",
-    _ => "???",
-};
-Console.WriteLine($" {diasemcorto} ");
+    Console.WriteLine($"el dato es un numero entero y su valor es {numero17}");
+
+}
+else
+{ 
+    Console.WriteLine("el dato no es un numero entero");
+    
+}
