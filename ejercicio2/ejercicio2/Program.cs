@@ -389,13 +389,20 @@ else Console.WriteLine("El numero no es mayor que cero");
 //}    
 //while(contraseña!="abc123");
 
-//Ejercicio 30
-int opcion;
-do
-{
-    Console.WriteLine("elige una opción de la siguientes");
-    Console.WriteLine("1.- Saludar \n2.- Mostrar fecha \n3.- Salir");
-    opcion = int.Parse(Console.ReadLine());
-}
-while (opcion != 3);
+// Ejercicio 30
+// int opcion;
+// do
+// {
+//     Console.WriteLine("elige una opción de la siguientes");
+//     Console.WriteLine("1.- Saludar \n2.- Mostrar fecha \n3.- Salir");
+//     opcion = int.Parse(Console.ReadLine());
+// }
+// while (opcion != 3);
 
+//ejercico 31
+int [] enteros ={7,2,14,4,5};
+int i;
+for (i=0; i <= 4; i++)
+{
+    Console.WriteLine($" {enteros[i]}");
+}
