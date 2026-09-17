@@ -6,7 +6,7 @@ using System.Diagnostics.Tracing;
 //int edad =int.Parse(Console.ReadLine());
 //if (edad>=18) Console.WriteLine("es mayor de edad");
 
-//Ejercicio 2
+// //Ejercicio 2
 
 /* Console.WriteLine("Esribe un numero entero");
 int numero2 =int.Parse(Console.ReadLine());
@@ -14,17 +14,17 @@ if (numero2 > 0) Console.WriteLine("El numero es mayor que cero");
 else Console.WriteLine("El numero no es mayor que cero");
    
  */
-// ejercicio3
+// // ejercicio3
 //Console.WriteLine("pon tu nota");
 //double nota3 =double.Parse(Console.ReadLine());
 //if (nota3>=5) Console.WriteLine("aprobado");
 
-// //Ejercicio 4
+// // //Ejercicio 4
 // Console.WriteLine("Introduce la temperatura en ºC ");
 // double temperatura4 = double.Parse(Console.ReadLine());
 // if (temperatura4 > 30) Console.WriteLine("Hace calor");
 
-// ejercicio5
+// // ejercicio5
 //Console.Write("introduce un numero entero: ");
 //int numero3 =int.Parse(Console.ReadLine());
 //if (numero3 % 2 ==0) Console.WriteLine("es par");
@@ -36,7 +36,7 @@ else Console.WriteLine("El numero no es mayor que cero");
 //     else if (numero6 < 0) Console.WriteLine("El numero es negativo");
 //         else Console.WriteLine("El numero es cero");
 
-////ejercicio7
+// //ejercicio7
 //string contraseñacorrecta ="1234";
 //Console.WriteLine("escribe una contraseña");
 //string contraseña7 = Console.ReadLine();
@@ -52,7 +52,7 @@ else Console.WriteLine("El numero no es mayor que cero");
 // else if (nota8 > 8) Console.WriteLine("Sobresaliente");
 // else Console.WriteLine("Bien");
 
-//ejercicio 9
+// //ejercicio 9
 //Console.WriteLine("introduce tu edad");
 //int edad9 = int.Parse(Console.ReadLine());
 //if (edad9<13) Console.WriteLine("niño");
@@ -67,7 +67,7 @@ else Console.WriteLine("El numero no es mayor que cero");
 // else if (50 <= precioProducto && precioProducto < 100) Console.WriteLine($"Precio del producto con descuento: {precioProducto * 0.95}");
 // else Console.WriteLine($"Precio del producto con descuento: {precioProducto * 0.90}");
 
-////ejercicio 11
+// //ejercicio 11
 //Console.WriteLine("introduce un nuemro del 1 al 7");
 //int diadelasemana = int.Parse(Console.ReadLine());
 //switch (diadelasemana) {case 1: Console.WriteLine ("lunes");
@@ -103,7 +103,7 @@ else Console.WriteLine("El numero no es mayor que cero");
 //     default: Console.WriteLine ("Opción no válida");
 //         break;
 //  }
-//ejercicio 13
+// //ejercicio 13
 // Console.WriteLine("elige operacion matematica: \n 1.- * \n 2.- + \n 3.- - \n 4.- /");
 //Console.WriteLine("Elija una opción.");
 //int opcion = int.Parse(Console.ReadLine());
@@ -187,7 +187,7 @@ else Console.WriteLine("El numero no es mayor que cero");
 //         break;
 // }
 
-//ejercicio 15
+// //ejercicio 15
 //Console.WriteLine("introduce un numero del 1 al 3");
 //int numero15 = int.Parse(Console.ReadLine());
 //string grado = numero15 switch
@@ -227,7 +227,7 @@ else Console.WriteLine("El numero no es mayor que cero");
 
 //}
 
-//Ejercicio 18
+////Ejercicio 18
 // object dato18 = 15.5;
 // if(dato18 is int resultado18)
 // {
@@ -244,7 +244,7 @@ else Console.WriteLine("El numero no es mayor que cero");
 // {
 //     Console.WriteLine("El numero no es un entero");
 // }
-// ejericio 19
+//// ejericio 19
 //object dato1 = 25;
 //object dato2 = "hola";
 //object dato3 = 8.5;
@@ -294,7 +294,7 @@ else Console.WriteLine("El numero no es mayor que cero");
 
 //}
 
-// //Ejercicio 20
+////Ejercicio 20
 // int i;
 // for (i = 1; i <= 10; i++) 
 // {
@@ -302,7 +302,7 @@ else Console.WriteLine("El numero no es mayor que cero");
 // }
 
 
-//ejercicio 21
+////ejercicio 21
 //int i;
 //for ( i=1; i<=10;i++)
 //{
@@ -317,7 +317,7 @@ else Console.WriteLine("El numero no es mayor que cero");
 // {
 //     Console.WriteLine($"{i} ");
 // }
-// ejercicio 23
+//// ejercicio 23
 //Console.WriteLine("introduce un numero");
 //int tablade5 = int.Parse(Console.ReadLine());
 //Console.WriteLine($"TABLA DEL {tablade5} ");
@@ -335,7 +335,7 @@ else Console.WriteLine("El numero no es mayor que cero");
 // }
 // Console.WriteLine($"La suma de los numeros del 1 al 100 es {suma}");
 
-// ejercicio 25
+//// ejercicio 25
 //int i=1;
 //while (i <= 10)
 //{
@@ -344,7 +344,7 @@ else Console.WriteLine("El numero no es mayor que cero");
 //}
 //Console.WriteLine("salta a fuera");
 
-// ejercicio 26
+//// ejercicio 26
 // int i = 10;
 // while (i >= 1)
 // {
@@ -365,7 +365,7 @@ else Console.WriteLine("El numero no es mayor que cero");
 //}
 //Console.WriteLine($"el numero correcto es {numero27}");
 
-// //Ejercicio 28
+////Ejercicio 28
 // int suma=0;
 // Console.WriteLine("introduce un numero");
 // int numero28 = int.Parse(Console.ReadLine());
@@ -380,7 +380,7 @@ else Console.WriteLine("El numero no es mayor que cero");
 // }
 // Console.WriteLine($"la suma de todos los numeros introducidos es {suma}");
 
-// ejercicio 29
+//// ejercicio 29
 //string contraseña;
 //do
 //{
@@ -389,7 +389,7 @@ else Console.WriteLine("El numero no es mayor que cero");
 //}    
 //while(contraseña!="abc123");
 
-// Ejercicio 30
+//// Ejercicio 30
 // int opcion;
 // do
 // {
@@ -407,7 +407,7 @@ else Console.WriteLine("El numero no es mayor que cero");
 //    Console.WriteLine($" {enteros[i]}");
 //}
 
-//Ejercicio 32
+////Ejercicio 32
 
 //string[] nombresarray = { "Ana", "Luis", "Carlos", "Marta" };
 //foreach (string nombre in nombresarray)
@@ -415,7 +415,7 @@ else Console.WriteLine("El numero no es mayor que cero");
 //    Console.WriteLine(nombre);
 //}
 
-//Ejercicio 33
+////Ejercicio 33
 //int[] numeros33 = { 10, 20, 30, 40, 50 };
 //numeros33[1] = 100;
 //foreach (int numeroarray in numeros33)
@@ -423,19 +423,30 @@ else Console.WriteLine("El numero no es mayor que cero");
 //    Console.Write($"{numeroarray},");
 //}
 
-//Ejercicio 34
+////Ejercicio 34
 
-int[] arraydenumeros = {3,25,14,17,8,4,1};
+//int[] arraydenumeros = {3,25,14,17,8,4,1};
 
-int maximo=arraydenumeros[0];
-int minimo=arraydenumeros[0];
-foreach (int i in arraydenumeros)
+//int maximo=arraydenumeros[0];
+//int minimo=arraydenumeros[0];
+//foreach (int i in arraydenumeros)
+//{
+//    if(maximo < i) maximo = i; 
+//    if (minimo > i) minimo = i;
+//}
+
+//Console.WriteLine($"El valor máximo del array es {maximo}");
+//Console.WriteLine($"El valor minimo del array es {minimo}");
+
+//Ejercicio 35
+double[] arraydenotas = { 5.0, 5.5, 4.25, 3.12, 8.7, 9.1, 6.4 };
+double suma=0, media=0;
+foreach(double i in arraydenotas)
 {
-    if(maximo < i) maximo = i; 
-    if (minimo > i) minimo = i;
+    suma = suma + i;
+    media = suma / arraydenotas.Length;
 }
+Console.WriteLine($"La suma de las notas es {suma} \nLa media de las notas es {media}");
 
-Console.WriteLine($"El valor máximo del array es {maximo}");
-Console.WriteLine($"El valor minimo del array es {minimo}");
 
 
