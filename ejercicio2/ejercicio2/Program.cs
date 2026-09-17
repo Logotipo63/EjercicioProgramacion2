@@ -310,9 +310,19 @@ else Console.WriteLine("El numero no es mayor que cero");
 //}
 
 
-//Ejercicio 21
+// //Ejercicio 21
+// int i;
+// for (i = 10; i >= 1; i--)
+// {
+//     Console.WriteLine($"{i} ");
+// }
+// ejercicio 23
+Console.WriteLine("introduce un numero");
+int tablade5 = int.Parse(Console.ReadLine());
+Console.WriteLine($"TABLA DEL {tablade5} ");
 int i;
-for (i = 10; i >= 1; i--)
+for (i = 1; i <= 10; i++)
 {
-    Console.WriteLine($"{i} ");
+    Console.WriteLine($"{tablade5} x {i} = {tablade5*i}");
+
 }
