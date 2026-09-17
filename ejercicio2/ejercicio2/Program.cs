@@ -416,10 +416,26 @@ else Console.WriteLine("El numero no es mayor que cero");
 //}
 
 //Ejercicio 33
-int[] numeros33 = { 10, 20, 30, 40, 50 };
-numeros33[1] = 100;
-foreach (int numeroarray in numeros33)
+//int[] numeros33 = { 10, 20, 30, 40, 50 };
+//numeros33[1] = 100;
+//foreach (int numeroarray in numeros33)
+//{
+//    Console.Write($"{numeroarray},");
+//}
+
+//Ejercicio 34
+
+int[] arraydenumeros = {3,25,14,17,8,4,1};
+
+int maximo=arraydenumeros[0];
+int minimo=arraydenumeros[0];
+foreach (int i in arraydenumeros)
 {
-    Console.Write($"{numeroarray},");
+    if(maximo < i) maximo = i; 
+    if (minimo > i) minimo = i;
 }
+
+Console.WriteLine($"El valor máximo del array es {maximo}");
+Console.WriteLine($"El valor minimo del array es {minimo}");
+
 
