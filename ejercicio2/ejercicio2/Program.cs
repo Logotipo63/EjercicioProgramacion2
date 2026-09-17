@@ -345,11 +345,22 @@ else Console.WriteLine("El numero no es mayor que cero");
 //Console.WriteLine("salta a fuera");
 
 // ejercicio 26
-int i = 10;
-while (i >= 1)
-{
-    Console.WriteLine($"{i}");
-    i--;
-}
-Console.WriteLine("salta a fuera");
+// int i = 10;
+// while (i >= 1)
+// {
+//     Console.WriteLine($"{i}");
+//     i--;
+// }
+// Console.WriteLine("salta a fuera");
 
+// ejercicio 27
+Console.WriteLine("introduce un numero");
+int numero27 =int.Parse(Console.ReadLine());
+while (numero27 != 0)
+{
+    Console.WriteLine($"el numero {numero27} no es correcto \n introduce otro numero");
+    
+    numero27 =int.Parse(Console.ReadLine());
+
+}
+Console.WriteLine($"el numero correcto es {numero27}");
