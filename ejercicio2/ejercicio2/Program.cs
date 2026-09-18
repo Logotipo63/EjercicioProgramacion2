@@ -527,49 +527,10 @@ else Console.WriteLine("El numero no es mayor que cero");
 //} while(numero!=aleatorio);
 //Console.WriteLine($"!Enhorabuena!\n El numero secreto es {aleatorio}");
 
-//Ejercicio 44
-int enumerador;
-do
-{
-    Console.WriteLine("Por favor, elige una opción");
-    Console.WriteLine("1. Introducir número.\n2. Mostrar número.\n3. Comprobar si es par.\n4. Mostrar doble.\n5. Salir\n");
-    enumerador = int.Parse(Console.ReadLine());
-    switch (enumerador)
-    {
-        case 1:
-            {
-                Console.WriteLine($"\nHas elegido la opcón {enumerador}: Introducir un número.\n");
-                break;
-            }
-        case 2:
-            {
-                Console.WriteLine($"\nHas elegido la opcón {enumerador}: Mostrar un número.\n");
-                break;
-            }
-        case 3:
-            {
-                Console.WriteLine($"\nHas elegido la opcón {enumerador}: Comprobar si es par.\n");
-                break;
-            }
-        case 4:
-            {
-                Console.WriteLine($"\nHas elegido la opcón {enumerador}: Mostrar doble.\n");
-                break;
-            }
-        case 5:
-            {
-                Console.WriteLine($"\nHas elegido la opcón {enumerador}: Salir.\n");
-                break;
-            }
-        default:
-            {
-                Console.WriteLine($"\nOpción no valida. Inténtalo de nuevo.\n");
-                break;
-            }
 
-    }
+//Ejercicio 45
 
-} while (enumerador != 5);
-
-
+double[] notas45 = { 7.5, 4.0, 8.5, 6.0, 3.5, 9.0 };
+ 
+// programa por terminar
 
